@@ -1,0 +1,1 @@
+function happyou7(){document.getElementById('result7').innerHTML='7問正解!!';}
