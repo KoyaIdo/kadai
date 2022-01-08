@@ -1,1 +1,1 @@
-function happyou２(){document.getElementById('result2').innerHTML='2問正解!!';}
+function kekka２(){document.getElementById('result2').innerHTML='2問正解!!';}
