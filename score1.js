@@ -1,1 +1,1 @@
-function kekka１(){document.getElementById('result1').innerHTML='1問正解!!';}
+function kekka1(){document.getElementById('result1').innerHTML='1問正解!!';}
