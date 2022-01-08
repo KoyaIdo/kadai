@@ -1,10 +1,10 @@
-body{background-color:wheat;}
+body{background-color:#525252;}
 
 .title1{
     font-size: 70px;
     font-weight: bolder;
     text-align: center;
-    color:indigo;
+    color:#e5af00;
 }
 
 .midashi1{
@@ -18,4 +18,8 @@ body{background-color:wheat;}
 
 .start{
     text-align: center;
+}
+
+.startpage{
+    color:white;
 }

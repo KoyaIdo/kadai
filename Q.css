@@ -1,4 +1,325 @@
 div#questions{
+    color:white;
     font-size: 20px;
     text-align: center;
+}
+
+.kakoi1{
+    margin: 2em 0;
+    position: relative;
+    padding: 0.25em 1em;
+    border: solid 2px #ffcb8a;
+    border-radius: 3px 0 3px 0;
+}
+
+.kakoi1:before,.kakoi1:after{
+    content:'';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: solid 2px #ffcb8a;
+    border-radius: 50%;
+}
+
+.kakoi1:after{
+    top:-12px;
+    left:-12px;
+}
+
+.kakoi1:before{
+    bottom: -12px;
+    right: -12px;
+}
+
+.kakoi1 p{
+    margin: 0;
+    padding: 0;
+}
+
+.kakoi2{
+    margin: 2em 0;
+    position: relative;
+    padding: 0.25em 1em;
+    border: solid 2px #ffcb8a;
+    border-radius: 3px 0 3px 0;
+}
+
+.kakoi2:before,.kakoi2:after{
+    content:'';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: solid 2px #ffcb8a;
+    border-radius: 50%;
+}
+
+.kakoi2:after{
+    top:-12px;
+    left:-12px;
+}
+
+.kakoi2:before{
+    bottom: -12px;
+    right: -12px;
+}
+
+.kakoi2 p{
+    margin: 0;
+    padding: 0;
+}
+
+.kakoi3{
+    margin: 2em 0;
+    position: relative;
+    padding: 0.25em 1em;
+    border: solid 2px #ffcb8a;
+    border-radius: 3px 0 3px 0;
+}
+
+.kakoi3:before,.kakoi3:after{
+    content:'';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: solid 2px #ffcb8a;
+    border-radius: 50%;
+}
+
+.kakoi3:after{
+    top:-12px;
+    left:-12px;
+}
+
+.kakoi3:before{
+    bottom: -12px;
+    right: -12px;
+}
+
+.kakoi3 p{
+    margin: 0;
+    padding: 0;
+}
+
+.kakoi4{
+    margin: 2em 0;
+    position: relative;
+    padding: 0.25em 1em;
+    border: solid 2px #ffcb8a;
+    border-radius: 3px 0 3px 0;
+}
+
+.kakoi4:before,.kakoi4:after{
+    content:'';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: solid 2px #ffcb8a;
+    border-radius: 50%;
+}
+
+.kakoi4:after{
+    top:-12px;
+    left:-12px;
+}
+
+.kakoi4:before{
+    bottom: -12px;
+    right: -12px;
+}
+
+.kakoi4 p{
+    margin: 0;
+    padding: 0;
+}
+
+.kakoi5{
+    margin: 2em 0;
+    position: relative;
+    padding: 0.25em 1em;
+    border: solid 2px #ffcb8a;
+    border-radius: 3px 0 3px 0;
+}
+
+.kakoi5:before,.kakoi5:after{
+    content:'';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: solid 2px #ffcb8a;
+    border-radius: 50%;
+}
+
+.kakoi5:after{
+    top:-12px;
+    left:-12px;
+}
+
+.kakoi5:before{
+    bottom: -12px;
+    right: -12px;
+}
+
+.kakoi5 p{
+    margin: 0;
+    padding: 0;
+}
+
+.kakoi6{
+    margin: 2em 0;
+    position: relative;
+    padding: 0.25em 1em;
+    border: solid 2px #ffcb8a;
+    border-radius: 3px 0 3px 0;
+}
+
+.kakoi6:before,.kakoi6:after{
+    content:'';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: solid 2px #ffcb8a;
+    border-radius: 50%;
+}
+
+.kakoi6:after{
+    top:-12px;
+    left:-12px;
+}
+
+.kakoi6:before{
+    bottom: -12px;
+    right: -12px;
+}
+
+.kakoi6 p{
+    margin: 0;
+    padding: 0;
+}
+
+.kakoi7{
+    margin: 2em 0;
+    position: relative;
+    padding: 0.25em 1em;
+    border: solid 2px #ffcb8a;
+    border-radius: 3px 0 3px 0;
+}
+
+.kakoi7:before,.kakoi1:after{
+    content:'';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: solid 2px #ffcb8a;
+    border-radius: 50%;
+}
+
+.kakoi7:after{
+    top:-12px;
+    left:-12px;
+}
+
+.kakoi7:before{
+    bottom: -12px;
+    right: -12px;
+}
+
+.kakoi7 p{
+    margin: 0;
+    padding: 0;
+}
+
+.kakoi8{
+    margin: 2em 0;
+    position: relative;
+    padding: 0.25em 1em;
+    border: solid 2px #ffcb8a;
+    border-radius: 3px 0 3px 0;
+}
+
+.kakoi8:before,.kakoi8:after{
+    content:'';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: solid 2px #ffcb8a;
+    border-radius: 50%;
+}
+
+.kakoi8:after{
+    top:-12px;
+    left:-12px;
+}
+
+.kakoi8:before{
+    bottom: -12px;
+    right: -12px;
+}
+
+.kakoi8 p{
+    margin: 0;
+    padding: 0;
+}
+
+.kakoi9{
+    margin: 2em 0;
+    position: relative;
+    padding: 0.25em 1em;
+    border: solid 2px #ffcb8a;
+    border-radius: 3px 0 3px 0;
+}
+
+.kakoi9:before,.kakoi9:after{
+    content:'';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: solid 2px #ffcb8a;
+    border-radius: 50%;
+}
+
+.kakoi9:after{
+    top:-12px;
+    left:-12px;
+}
+
+.kakoi9:before{
+    bottom: -12px;
+    right: -12px;
+}
+
+.kakoi9 p{
+    margin: 0;
+    padding: 0;
+}
+
+.kakoi10{
+    margin: 2em 0;
+    position: relative;
+    padding: 0.25em 1em;
+    border: solid 2px #ffcb8a;
+    border-radius: 3px 0 3px 0;
+}
+
+.kakoi10:before,.kakoi10:after{
+    content:'';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: solid 2px #ffcb8a;
+    border-radius: 50%;
+}
+
+.kakoi10:after{
+    top:-12px;
+    left:-12px;
+}
+
+.kakoi10:before{
+    bottom: -12px;
+    right: -12px;
+}
+
+.kakoi10 p{
+    margin: 0;
+    padding: 0;
 }

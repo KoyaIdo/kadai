@@ -1,4 +1,4 @@
-let elapsedTime = 10;
+let elapsedTime = 180;
 function wrightTime(){
     document.getElementById("time").textContent = '残り' + elapsedTime + '秒';
 }
