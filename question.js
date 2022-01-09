@@ -149,7 +149,7 @@ function T7(){
 
 function T8(){
     add();
-    document.getElementById('question8').innerHTML='Q8.答え: 42 [42県]';
+    document.getElementById('question8').innerHTML='Q8.答え: 43 [43県]';
 }
 
 function T9(){
