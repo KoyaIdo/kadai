@@ -204,7 +204,7 @@ div#questions{
     border-radius: 3px 0 3px 0;
 }
 
-.kakoi7:before,.kakoi1:after{
+.kakoi7:before,.kakoi7:after{
     content:'';
     position: absolute;
     width: 10px;
