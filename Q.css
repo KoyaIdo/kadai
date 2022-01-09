@@ -4,7 +4,43 @@ div#questions{
     text-align: center;
 }
 
+/*.kakoi1.kakoi2.kakoi3.kakoi4.kakoi5.kakoi6.kakoi7.kakoi8.kakoi9.kakoi10{
+    
+    margin: 2em 0;
+    position: relative;
+    padding: 0.25em 1em;
+    border: solid 2px #ffcb8a;
+    border-radius: 3px 0 3px 0;
+}
+
+.kakoi1.kakoi2.kakoi3.kakoi4.kakoi5.kakoi6.kakoi7.kakoi8.kakoi9.kakoi10:before,.kakoi1.kakoi2.kakoi3.kakoi4.kakoi5.kakoi6.kakoi7.kakoi8.kakoi9.kakoi10:after{
+    content:'';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: solid 2px #ffcb8a;
+    border-radius: 50%;
+}
+
+.kakoi1.kakoi2.kakoi3.kakoi4.kakoi5.kakoi6.kakoi7.kakoi8.kakoi9.kakoi10:after{
+    top:-12px;
+    left:-12px;
+}
+
+.kakoi1.kakoi2.kakoi3.kakoi4.kakoi5.kakoi6.kakoi7.kakoi8.kakoi9.kakoi10::before{
+    bottom: -12px;
+    right: -12px;
+}
+
+.kakoi1.kakoi2.kakoi3.kakoi4.kakoi5.kakoi6.kakoi7.kakoi8.kakoi9.kakoi10 p{
+    margin: 0;
+    padding: 0;
+}
+*/
+
+
 .kakoi1{
+    display: inline-block;
     margin: 2em 0;
     position: relative;
     padding: 0.25em 1em;
@@ -37,6 +73,7 @@ div#questions{
 }
 
 .kakoi2{
+    display: inline-block;
     margin: 2em 0;
     position: relative;
     padding: 0.25em 1em;
@@ -69,6 +106,7 @@ div#questions{
 }
 
 .kakoi3{
+    display: inline-block;
     margin: 2em 0;
     position: relative;
     padding: 0.25em 1em;
@@ -101,6 +139,7 @@ div#questions{
 }
 
 .kakoi4{
+    display: inline-block;
     margin: 2em 0;
     position: relative;
     padding: 0.25em 1em;
@@ -133,6 +172,7 @@ div#questions{
 }
 
 .kakoi5{
+    display: inline-block;
     margin: 2em 0;
     position: relative;
     padding: 0.25em 1em;
@@ -165,6 +205,7 @@ div#questions{
 }
 
 .kakoi6{
+    display: inline-block;
     margin: 2em 0;
     position: relative;
     padding: 0.25em 1em;
@@ -197,6 +238,7 @@ div#questions{
 }
 
 .kakoi7{
+    display: inline-block;
     margin: 2em 0;
     position: relative;
     padding: 0.25em 1em;
@@ -229,6 +271,7 @@ div#questions{
 }
 
 .kakoi8{
+    display: inline-block;
     margin: 2em 0;
     position: relative;
     padding: 0.25em 1em;
@@ -261,6 +304,7 @@ div#questions{
 }
 
 .kakoi9{
+    display: inline-block;
     margin: 2em 0;
     position: relative;
     padding: 0.25em 1em;
@@ -293,6 +337,7 @@ div#questions{
 }
 
 .kakoi10{
+    display: inline-block;
     margin: 2em 0;
     position: relative;
     padding: 0.25em 1em;
@@ -322,4 +367,8 @@ div#questions{
 .kakoi10 p{
     margin: 0;
     padding: 0;
+}
+
+p.num{
+    text-align: start;
 }

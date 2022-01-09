@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>問題</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="imagechange.css">
     <link rel="stylesheet" href="Q.css">
     <script src="script.js" defer></script>
     <script src="score0.js"></script>
@@ -27,7 +26,14 @@
      <div id="questions">
        <div class="kakoi1">
          <div id="question1">
-           <p>Q1.ひっくり返ると、軽くなる動物は？</p>
+           <p class="num">Q1.</p>
+           <br>
+           <p>G→K→S→[？]→K→D→N→G→K→S→...</p>
+           <br>
+           <p>[？]に入るアルファベットは？</p>
+           <div id="hint1">
+             <input type="button" value="ヒント" onclick="HINT1();">
+           </div>
            <p>
              答:<input type="text" id="answer1">
              <input type="button" value="解答" alt="kaitou1" onclick="nazo1();">
@@ -37,11 +43,16 @@
        <br>
        <br>
        <br>
-       <br>
-       <br>
        <div class="kakoi2">
          <div id="question2">
-           <p>Q2.</p>
+           <p class="num">Q2.</p>
+           <br>
+           <p>O→T→T→F→F→[？]→S→E→N→T</p>
+           <br>
+           <p>[？]に入るアルファベットは？</p>
+           <div id="hint2">
+             <input type="button" value="ヒント" id="hint2" onclick="HINT2();">
+           </div>
            <p>
              答:<input type="text" id="answer2">
              <input type="button" value="解答" alt="kaitou2" onclick="nazo2();">
@@ -51,11 +62,16 @@
        <br>
        <br>
        <br>
-       <br>
-       <br>
        <div class="kakoi3">
          <div id="question3">
-           <p>Q3.目を閉じていないと見られないものはなーに？</p>
+           <p class="num">Q3.</p>
+           <br>
+           <p>S [？] V [？] N [？] L [？] V [？] N</p>
+           <br>
+           <p>[？]に共通するアルファベットは？</p>
+           <div id="hint3">
+             <input type="button" value="ヒント" id="hint3" onclick="HINT3();">
+           </div>
            <p>
              答:<input type="text" id="answer3">
              <input type="button" value="解答" alt="kaitou3" onclick="nazo3();">
@@ -65,11 +81,16 @@
        <br>
        <br>
        <br>
-       <br>
-       <br>
        <div class="kakoi4">
          <div id="question4">
-           <p>Q4.「ら」の字が添えられて出てくる食べ物は？</p>
+           <p class="num">Q4.</p>
+           <br>
+           <p>S＜M＜H＜[？]＜W＜M＜Y＜C</p>
+           <br>
+           <p>[？]に入るアルファベットは？</p>
+           <div id="hint4">
+             <input type="button" value="ヒント" id="hint4" onclick="HINT4();">
+           </div>
            <p>
              答:<input type="text" id="answer4">
              <input type="button" value="解答" alt="kaitou4" onclick="nazo4();">
@@ -79,11 +100,16 @@
        <br>
        <br>
        <br>
-       <br>
-       <br>
        <div class="kakoi5">
          <div id="question5">
-           <p>Q5.目を閉じていないと見られないものはなーに？</p>
+           <p class="num">Q5.</p>
+           <br>
+           <p>M→T→[？]→H→R</p>
+           <br>
+           <p>[？]に入るアルファベットは？</p>
+           <div id="hint5">
+             <input type="button" value="ヒント" id="hint5" onclick="HINT5();">
+           </div>
            <p>
              答:<input type="text" id="answer5">
              <input type="button" value="解答" alt="kaitou5" onclick="nazo5();">
@@ -93,11 +119,16 @@
        <br>
        <br>
        <br>
-       <br>
-       <br>
        <div class="kakoi6">
          <div id="question6">
-           <p>Q6.目を閉じていないと見られないものはなーに？</p>
+           <p class="num">Q6.</p>
+           <br>
+           <p>O→K→[？]→A→A→S</p>
+           <br>
+           <p>[？]に入るアルファベットは？</p>
+           <div id="hint6">
+             <input type="button" value="ヒント" id="hint6" onclick="HINT6();">
+           </div>
            <p>
              答:<input type="text" id="answer6">
              <input type="button" value="解答" alt="kaitou6" onclick="nazo6();">
@@ -107,11 +138,16 @@
        <br>
        <br>
        <br>
-       <br>
-       <br>
        <div class="kakoi7">
          <div id="question7">
-           <p>Q7.目を閉じていないと見られないものはなーに？</p>
+           <p class="num">Q7.</p>
+           <br>
+           <p>[？]→F→M→A→M→[？]→[？]→A→S→O→N→D</p>
+           <br>
+           <p>[？]に共通するアルファベットは？</p>
+           <div id="hint7">
+             <input type="button" value="ヒント" id="hint7" onclick="HINT7();">
+           </div>
            <p>
              答:<input type="text" id="answer7">
              <input type="button" value="解答" alt="kaitou7" onclick="nazo7();">
@@ -121,11 +157,16 @@
        <br>
        <br>
        <br>
-       <br>
-       <br>
        <div class="kakoi8">
          <div id="question8">
-           <p>Q8.扉の真ん中に「り」と書いたら出てくる食べ物は？</p>
+           <p class="num">Q8.</p>
+           <br>
+           <p>1T+1D+2F+[？]K</p>
+           <br>
+           <p>[？]に入る数字は？</p>
+           <div id="hint8">
+             <input type="button" value="ヒント" id="hint8" onclick="HINT8();">
+           </div>
            <p>
              答:<input type="text" id="answer8">
              <input type="button" value="解答" alt="kaitou8" onclick="nazo8();">
@@ -135,11 +176,16 @@
        <br>
        <br>
        <br>
-       <br>
-       <br>
        <div class="kakoi9">
          <div id="question9">
-           <p>Q9.目を閉じていないと見られないものはなーに？</p>
+           <p class="num">Q9.</p>
+           <br>
+           <p>M M C M M [？] M</p>
+           <br>
+           <p>[？]に入るアルファベットは？</p>
+           <div id="hint9">
+             <input type="button" value="ヒント" id="hint9" onclick="HINT9();">
+           </div>
            <p>
              答:<input type="text" id="answer9">
              <input type="button" value="解答" alt="kaitou9" onclick="nazo9();">
@@ -149,11 +195,20 @@
        <br>
        <br>
        <br>
-       <br>
-       <br>
        <div class="kakoi10">
          <div id="question10">
-           <p>Q10.目を閉じていないと見られないものはなーに？</p>
+           <p class="num">Q10.</p>
+           <br>
+           <p>J=[？]</p>
+           <p>A=D</p>
+           <p>C=G</p>
+           <p>K=W</p>
+           <p>F=E</p>
+           <br>
+           [？]に入るアルファベットは？
+           <div id="hint10">
+             <input type="button" value="ヒント" id="hint10" onclick="HINT10();">
+           </div>
            <p>
              答:<input type="text" id="answer10">
              <input type="button" value="解答" alt="kaitou10" onclick="nazo10();">
