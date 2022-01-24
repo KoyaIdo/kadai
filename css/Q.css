@@ -4,16 +4,12 @@ div#questions, div#startpage{
     text-align: center;
 }
 
-/* div#startpage {
-    position: center;
-} */
-
 div#startpage, .kakoi1, .kakoi2, .kakoi3, .kakoi4, .kakoi5, .kakoi6, .kakoi7, .kakoi8, .kakoi9, .kakoi10{
     display: inline-block;
     margin: 2em 0;
     position: relative;
     padding: 0.25em 1em;
-    border: solid 2px #ffcb8a;
+    border: solid 2px #e5af00;
     border-radius: 3px 0 3px 0;
 }
 
@@ -22,7 +18,7 @@ div#startpage::before, .kakoi1:before, .kakoi2:before, .kakoi3:before, .kakoi4:b
     position: absolute;
     width: 10px;
     height: 10px;
-    border: solid 2px #ffcb8a;
+    border: solid 2px #e5af00;
     border-radius: 50%;
 }
 
@@ -42,9 +38,45 @@ div#startpage:before, .kakoi1:before, .kakoi2:before, .kakoi3:before, .kakoi4:be
 }
 
 p.num{
-    text-align: start;
+    font-size: 30px;
+    color: #e5af00;
+    text-align: center;
+    border-bottom: double 6px #e5af00;
 }
 
 .position {
-    margin-top: 20px;
+    margin-top: 0px;
+}
+
+div#hint1, div#hint2, div#hint3, div#hint4, div#hint5, div#hint6, div#hint7, div#hint8, div#hint9, div#hint10{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+p.code{
+    padding-top: 33px;
+    padding-bottom: 10px;
+}
+
+p.code1{
+    padding-top: 10px;
+}
+
+p.code2{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+p.toi{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.hint {
+    color: #e5af00;
+}
+
+p.kotae {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }

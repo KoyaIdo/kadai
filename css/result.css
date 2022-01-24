@@ -16,123 +16,13 @@ body{
     color: #e5af00;
 }
 
-div#result0{
+div#result0, div#result1, div#result2, div#result3, div#result4, div#result5, div#result6, div#result7, div#result8, div#result9, div#result10{
     font-size: 50px;
     font-weight: bold;
     text-align: center;
     color: #e5af00;
 }
 
-div#result1{
-    font-size: 50px;
-    font-weight: bold;
-    text-align: center;
-    color: #e5af00;
-}
-
-div#result2{
-    font-size: 50px;
-    font-weight: bold;
-    text-align: center;
-    color: #e5af00;
-}
-
-div#result3{
-    font-size: 50px;
-    font-weight: bold;
-    text-align: center;
-    color: #e5af00;
-}
-
-div#result4{
-    font-size: 50px;
-    font-weight: bold;
-    text-align: center;
-    color: #e5af00;
-}
-
-div#result5{
-    font-size: 50px;
-    font-weight: bold;
-    text-align: center;
-    color: #e5af00;
-}
-
-div#result6{
-    font-size: 50px;
-    font-weight: bold;
-    text-align: center;
-    color: #e5af00;
-}
-
-div#result7{
-    font-size: 50px;
-    font-weight: bold;
-    text-align: center;
-    color: #e5af00;
-}
-
-div#result8{
-    font-size: 50px;
-    font-weight: bold;
-    text-align: center;
-    color: #e5af00;
-}
-
-div#result9{
-    font-size: 50px;
-    font-weight: bold;
-    text-align: center;
-    color: #e5af00;
-}
-
-div#result10{
-    font-size: 50px;
-    font-weight: bold;
-    text-align: center;
-    color: #e5af00;
-}
-
-.return0{
-    text-align: center;
-}
-
-.return1{
-    text-align: center;
-}
-
-.return2{
-    text-align: center;
-}
-
-.return3{
-    text-align: center;
-}
-
-.return4{
-    text-align: center;
-}
-
-.return5{
-    text-align: center;
-}
-
-.return6{
-    text-align: center;
-}
-
-.return7{
-    text-align: center;
-}
-
-.return8{
-    text-align: center;
-}
-
-.return9{
-    text-align: center;
-}
-
-.return10{
+.return0, .return1, .return2, .return3, .return4, .return5, .return6, .return7, .return8, .return9, .return10{
     text-align: center;
 }

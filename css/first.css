@@ -1,20 +1,41 @@
 body{background-color:#131313;}
 
-.title1{
+/* .title1{
     font-size: 70px;
     font-weight: bolder;
     text-align: center;
     color:#e5af00;
+} */
+
+.title {
+    height: 90px;
+    width: 700px;
+    top: 10px;
+    left: 300px;
+    border:inset 10px #e5af00;
+}
+
+svg {
+    width: 100px;
+    height: auto;
+    overflow: visible;
+    padding-top: 100px;
+    padding-left: 31%;
+}
+text {
+    fill: #e5af00;
+    stroke: rgb(156, 89, 1);
+    stroke-width: 2.7;
+    stroke-linejoin: round;
+    font-size: 70px;
+    font-weight: bolder;
+    text-align: center;
 }
 
 .midashi1{
     font-size: 30px;
     text-align: center;
 }
-
-/* .rule{
-    text-align: center;
-} */
 
 .start{
     text-align: center;
@@ -36,3 +57,4 @@ body{background-color:#131313;}
     padding-top: 6px;
     padding-bottom: 6px;
 }
+
