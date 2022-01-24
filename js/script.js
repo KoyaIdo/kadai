@@ -1,15 +1,21 @@
+//　　制限時間を２１０秒（３分半）に設定
 let elapsedTime = 210;
+
+// 残り時間の表示
 function wrightTime(){
     document.getElementById("time").textContent = '残り' + elapsedTime + '秒';
 }
 wrightTime();
 
+// 持ち点の設定
 var score = 0
 
+// 正解すると持ち点に＋１する
 function add(){
     score ++ ;
 }
 
+// 最終的な持ち点を参照して、対応するリザルト画面にページ遷移を行う
 function result(){
     if (score === 0){
         clearInterval(timerId);
@@ -57,6 +63,7 @@ function result(){
     }
 }
 
+// setIntervalを使ったカウントダウンタイマー
 const timerId = setInterval(function(){
     elapsedTime--;
     wrightTime();
