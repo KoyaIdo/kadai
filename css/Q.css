@@ -1,10 +1,14 @@
-div#questions{
+div#questions, div#startpage{
     color:white;
     font-size: 20px;
     text-align: center;
 }
 
-.kakoi1, .kakoi2, .kakoi3, .kakoi4, .kakoi5, .kakoi6, .kakoi7, .kakoi8, .kakoi9, .kakoi10{
+/* div#startpage {
+    position: center;
+} */
+
+div#startpage, .kakoi1, .kakoi2, .kakoi3, .kakoi4, .kakoi5, .kakoi6, .kakoi7, .kakoi8, .kakoi9, .kakoi10{
     display: inline-block;
     margin: 2em 0;
     position: relative;
@@ -13,7 +17,7 @@ div#questions{
     border-radius: 3px 0 3px 0;
 }
 
-.kakoi1:before, .kakoi2:before, .kakoi3:before, .kakoi4:before, .kakoi5:before, .kakoi6:before, .kakoi7:before, .kakoi8:before, .kakoi9:before, .kakoi10:before,.kakoi1:after, .kakoi2:after, .kakoi3:after, .kakoi4:after, .kakoi5:after, .kakoi6:after, .kakoi7:after, .kakoi8:after, .kakoi9:after, .kakoi10:after{
+div#startpage::before, .kakoi1:before, .kakoi2:before, .kakoi3:before, .kakoi4:before, .kakoi5:before, .kakoi6:before, .kakoi7:before, .kakoi8:before, .kakoi9:before, .kakoi10:before,div#startpage::after, .kakoi1:after, .kakoi2:after, .kakoi3:after, .kakoi4:after, .kakoi5:after, .kakoi6:after, .kakoi7:after, .kakoi8:after, .kakoi9:after, .kakoi10:after{
     content:'';
     position: absolute;
     width: 10px;
@@ -22,12 +26,12 @@ div#questions{
     border-radius: 50%;
 }
 
-.kakoi1:after, .kakoi2:after, .kakoi3:after, .kakoi4:after, .kakoi5:after, .kakoi6:after, .kakoi7:after, .kakoi8:after, .kakoi9:after, .kakoi10:after{
+div#startpage:after, .kakoi1:after, .kakoi2:after, .kakoi3:after, .kakoi4:after, .kakoi5:after, .kakoi6:after, .kakoi7:after, .kakoi8:after, .kakoi9:after, .kakoi10:after{
     top:-12px;
     left:-12px;
 }
 
-.kakoi1:before, .kakoi2:before, .kakoi3:before, .kakoi4:before, .kakoi5:before, .kakoi6:before, .kakoi7:before, .kakoi8:before, .kakoi9:before, .kakoi10:before{
+div#startpage:before, .kakoi1:before, .kakoi2:before, .kakoi3:before, .kakoi4:before, .kakoi5:before, .kakoi6:before, .kakoi7:before, .kakoi8:before, .kakoi9:before, .kakoi10:before{
     bottom: -12px;
     right: -12px;
 }

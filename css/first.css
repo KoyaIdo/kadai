@@ -12,9 +12,9 @@ body{background-color:#131313;}
     text-align: center;
 }
 
-.rule{
+/* .rule{
     text-align: center;
-}
+} */
 
 .start{
     text-align: center;
@@ -22,4 +22,17 @@ body{background-color:#131313;}
 
 .startpage{
     color:white;
+}
+
+.iro {
+    color:#1100ff;
+}
+
+.iro1 {
+    color:#ff0000;
+}
+
+.break{
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
