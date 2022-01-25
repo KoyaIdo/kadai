@@ -1,1 +1,1 @@
-function kekka4(){document.getElementById('result4').innerHTML='4問正解!!';}
+function kekka4(){document.getElementById('result4').innerHTML='<div><span class="iro1">4問</span>正解!!</p>';}

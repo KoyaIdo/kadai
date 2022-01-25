@@ -1,1 +1,1 @@
-function kekka10(){document.getElementById('result10').innerHTML='全問正解!!';}
+function kekka10(){document.getElementById('result10').innerHTML='<div><span class="iro1">全問</span>正解!!</p>';}

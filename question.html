@@ -3,178 +3,201 @@
 <head>
   <meta charset="UTF-8">
   <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-  <title>問題</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/Q.css">
-  <link rel="stylesheet" href="css/first.css">
-  <script src="js/script.js" defer></script>
-  <script src="js/question.js"></script>
-</head>
-<body>
-  <div id="time" class="time"></div>
-  <br>
-  <br>
-  <div id="questions">
-    <div class="position"></div>   
-    <div class="kakoi1">  
-      <p class="num">第１問</p>
-      <div id="question1">
-        <p class="code">G→K→S→[？]→K→D→N→G→K→S→...</p>
-        <p class="toi">[？]に入るアルファベットは？</p>
-        <div id="hint1">
-          <input type="button" value="ヒント" id="hint1" alt="ヒントを聞くボタン" onclick="HINT1();">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>問題</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/Q.css">
+    <link rel="stylesheet" href="css/first.css">
+    <link rel="stylesheet" href="css/btn.css">
+    <script src="js/script.js" defer></script>
+    <script src="js/question.js"></script>
+  </head>
+  <body>
+    <div id="time" class="time"></div>
+    <br>
+    <br>
+    <div id="questions">
+      <div class="position"></div>   
+      <div class="kakoi1">  
+        <p class="num">第１問</p>
+        <div id="question1">
+          <p class="code">G→K→S→[？]→K→D→N→G→K→S→...</p>
+          <p class="toi">[？]に入るアルファベットは？</p>
+          <div id="hint1">
+            <div class="sbtn">
+              <a onclick="HINT1();" class="btn1 btn--orange">ヒント</a>
+            </div>
+          </div>
+          <p>
+            答:<input type="text" id="answer1">
+            <a onclick="nazo1();" class="btn1 btn--orange1">解答</a>
+          </p>
         </div>
-        <p>
-          答:<input type="text" id="answer1">
-          <input type="button" value="解答" alt="答えるボタン" onclick="nazo1();">
-        </p>
+      </div>  
+      <div class="position"></div>
+      <div class="kakoi2">
+        <p class="num">第２問</p>
+        <div id="question2">
+          <p class="code">O→T→T→F→F→[？]→S→E→N→T</p>
+          <p class="toi">[？]に入るアルファベットは？</p>
+          <div id="hint2">
+            <div class="sbtn">
+              <a onclick="HINT2();" class="btn1 btn--orange">ヒント</a>
+            </div>
+          </div>
+          <p>
+            答:<input type="text" id="answer2">
+            <a onclick="nazo2();" class="btn1 btn--orange1">解答</a>
+          </p>
+        </div>
       </div>
-    </div>  
-    <div class="position"></div>
-    <div class="kakoi2">
-      <p class="num">第２問</p>
-      <div id="question2">
-        <p class="code">O→T→T→F→F→[？]→S→E→N→T</p>
-        <p class="toi">[？]に入るアルファベットは？</p>
-        <div id="hint2">
-          <input type="button" value="ヒント" id="hint2" alt="ヒントを聞くボタン" onclick="HINT2();">
+      <div class="position"></div>
+      <div class="kakoi3">
+        <p class="num">第３問</p>
+        <div id="question3">
+          <p class="code">S [？] V [？] N [？] L [？] V [？] N</p>
+          <p class="toi">[？]に共通するアルファベットは？</p>
+          <div id="hint3">
+            <div class="sbtn">
+              <a onclick="HINT3();" class="btn1 btn--orange">ヒント</a>
+            </div>
+          </div>
+          <p>
+            答:<input type="text" id="answer3">
+            <a onclick="nazo3();" class="btn1 btn--orange1">解答</a>
+          </p>
         </div>
-        <p>
-          答:<input type="text" id="answer2">
-          <input type="button" value="解答" alt="答えるボタン" onclick="nazo2();">
-        </p>
+      </div>  
+      <div class="position"></div>
+      <div class="kakoi4">
+        <p class="num">第４問</p>
+        <div id="question4">
+          <p class="code">S＜M＜H＜[？]＜W＜M＜Y＜C</p>
+          <p class="toi">[？]に入るアルファベットは？</p>
+          <div id="hint4">
+            <div class="sbtn">
+              <a onclick="HINT4();" class="btn1 btn--orange">ヒント</a>
+            </div>
+          </div>
+          <p>
+            答:<input type="text" id="answer4">
+            <a onclick="nazo4();" class="btn1 btn--orange1">解答</a>
+          </p>
+        </div>
+      </div> 
+      <div class="position"></div>
+      <div class="kakoi5">
+        <p class="num">第５問</p>
+        <div id="question5">
+          <p class="code">M→T→[？]→H→R</p>
+          <p class="toi">[？]に入るアルファベットは？</p>
+          <div id="hint5">
+            <div class="sbtn">
+              <a onclick="HINT5();" class="btn1 btn--orange">ヒント</a>
+            </div>
+          </div>
+          <p>
+            答:<input type="text" id="answer5">
+            <a onclick="nazo5();" class="btn1 btn--orange1">解答</a>
+          </p>
+        </div>
       </div>
-    </div>
-    <div class="position"></div>
-    <div class="kakoi3">
-      <p class="num">第３問</p>
-      <div id="question3">
-        <p class="code">S [？] V [？] N [？] L [？] V [？] N</p>
-        <p class="toi">[？]に共通するアルファベットは？</p>
-        <div id="hint3">
-          <input type="button" value="ヒント" id="hint3" alt="ヒントを聞くボタン" onclick="HINT3();">
+      <div class="position"></div>
+      <div class="kakoi6">
+        <p class="num">第６問</p>
+        <div id="question6">
+          <p class="code">O→K→[？]→A→A→S</p>
+          <p class="toi">[？]に入るアルファベットは？</p>
+          <div id="hint6">
+            <div class="sbtn">
+              <a onclick="HINT6();" class="btn1 btn--orange">ヒント</a>
+            </div>
+          </div>
+          <p>
+            答:<input type="text" id="answer6">
+            <a onclick="nazo6();" class="btn1 btn--orange1">解答</a>
+          </p>
         </div>
-        <p>
-          答:<input type="text" id="answer3">
-          <input type="button" value="解答" alt="答えるボタン" onclick="nazo3();">
-        </p>
       </div>
-    </div>  
-    <div class="position"></div>
-    <div class="kakoi4">
-      <p class="num">第４問</p>
-      <div id="question4">
-        <p class="code">S＜M＜H＜[？]＜W＜M＜Y＜C</p>
-        <p class="toi">[？]に入るアルファベットは？</p>
-        <div id="hint4">
-          <input type="button" value="ヒント" id="hint4" alt="ヒントを聞くボタン" onclick="HINT4();">
+      <div class="position"></div>
+      <div class="kakoi7">
+        <p class="num">第７問</p>
+        <div id="question7">
+          <p class="code">[？]→F→M→A→M→[？]→[？]→A→S→O→N→D</p>
+          <p class="toi">[？]に共通するアルファベットは？</p>
+          <div id="hint7">
+            <div class="sbtn">
+              <a onclick="HINT7();" class="btn1 btn--orange">ヒント</a>
+            </div>
+          </div>
+          <p>
+            答:<input type="text" id="answer7">
+            <a onclick="nazo7();" class="btn1 btn--orange1">解答</a>
+          </p>
         </div>
-        <p>
-          答:<input type="text" id="answer4">
-          <input type="button" value="解答" alt="答えるボタン" onclick="nazo4();">
-        </p>
       </div>
-    </div> 
-    <div class="position"></div>
-    <div class="kakoi5">
-      <p class="num">第５問</p>
-      <div id="question5">
-        <p class="code">M→T→[？]→H→R</p>
-        <p class="toi">[？]に入るアルファベットは？</p>
-        <div id="hint5">
-          <input type="button" value="ヒント" id="hint5" alt="ヒントを聞くボタン" onclick="HINT5();">
+      <div class="position"></div>
+      <div class="kakoi8">
+        <p class="num">第８問</p>
+        <div id="question8">
+          <p class="code">1T+1D+2F+[？]K</p>
+          <p class="toi">[？]に入る数字は？</p>
+          <div id="hint8">
+            <div class="sbtn">
+              <a onclick="HINT8();" class="btn1 btn--orange">ヒント</a>
+            </div>
+          </div>
+          <p>
+            答:<input type="text" id="answer8">
+            <a onclick="nazo8();" class="btn1 btn--orange1">解答</a>
+          </p>
         </div>
-        <p>
-          答:<input type="text" id="answer5">
-          <input type="button" value="解答" alt="答えるボタン" onclick="nazo5();">
-        </p>
       </div>
-    </div>
-    <div class="position"></div>
-    <div class="kakoi6">
-      <p class="num">第６問</p>
-      <div id="question6">
-        <p class="code">O→K→[？]→A→A→S</p>
-        <p class="toi">[？]に入るアルファベットは？</p>
-        <div id="hint6">
-          <input type="button" value="ヒント" id="hint6" alt="ヒントを聞くボタン" onclick="HINT6();">
+      <div class="position"></div>
+      <div class="kakoi9">
+        <p class="num">第９問</p>
+        <div id="question9">
+          <p class="code">M M C M M [？] M</p>
+          <p class="toi">[？]に入るアルファベットは？</p>
+          <div id="hint9">
+            <div class="sbtn">
+              <a onclick="HINT9();" class="btn1 btn--orange">ヒント</a>
+            </div>
+          </div>
+          <p>
+            答:<input type="text" id="answer9">
+            <a onclick="nazo9();" class="btn1 btn--orange1">解答</a>
+          </p>
         </div>
-        <p>
-          答:<input type="text" id="answer6">
-          <input type="button" value="解答" alt="答えるボタン" onclick="nazo6();">
-        </p>
       </div>
-    </div>
-    <div class="position"></div>
-    <div class="kakoi7">
-      <p class="num">第７問</p>
-      <div id="question7">
-        <p class="code">[？]→F→M→A→M→[？]→[？]→A→S→O→N→D</p>
-        <p class="toi">[？]に共通するアルファベットは？</p>
-        <div id="hint7">
-          <input type="button" value="ヒント" id="hint7" alt="ヒントを聞くボタン" onclick="HINT7();">
+      <div class="position"></div>
+      <div class="kakoi10">
+        <p class="num">第１０問</p>
+        <div id="question10">
+          <p class="code1">J=[？]</p>
+          <p class="code2">A=D</p>
+          <p class="code2">C=G</p>
+          <p class="code2">K=W</p>
+          <p class="code2">F=E</p>
+          <p class="toi">[？]に入るアルファベットは？</p>
+          <div id="hint10">
+            <div class="sbtn">
+              <a onclick="HINT10();" class="btn1 btn--orange">ヒント</a>
+            </div>
+          </div>
+          <p>
+            答:<input type="text" id="answer10">
+            <a onclick="nazo10();" class="btn1 btn--orange1">解答</a>
+          </p>
         </div>
-        <p>
-          答:<input type="text" id="answer7">
-          <input type="button" value="解答" alt="答えるボタン" onclick="nazo7();">
-        </p>
       </div>
-    </div>
-    <div class="position"></div>
-    <div class="kakoi8">
-      <p class="num">第８問</p>
-      <div id="question8">
-        <p class="code">1T+1D+2F+[？]K</p>
-        <p class="toi">[？]に入る数字は？</p>
-        <div id="hint8">
-          <input type="button" value="ヒント" id="hint8" alt="ヒントを聞くボタン" onclick="HINT8();">
-        </div>
-        <p>
-          答:<input type="text" id="answer8">
-          <input type="button" value="解答" alt="答えるボタン" onclick="nazo8();">
-        </p>
-      </div>
-    </div>
-    <div class="position"></div>
-    <div class="kakoi9">
-      <p class="num">第９問</p>
-      <div id="question9">
-        <p class="code">M M C M M [？] M</p>
-        <p class="toi">[？]に入るアルファベットは？</p>
-        <div id="hint9">
-          <input type="button" value="ヒント" id="hint9" alt="ヒントを聞くボタン" onclick="HINT9();">
-        </div>
-        <p>
-          答:<input type="text" id="answer9">
-          <input type="button" value="解答" alt="答えるボタン" onclick="nazo9();">
-        </p>
-      </div>
-    </div>
-    <div class="position"></div>
-    <div class="kakoi10">
-      <p class="num">第１０問</p>
-      <div id="question10">
-        <p class="code1">J=[？]</p>
-        <p class="code2">A=D</p>
-        <p class="code2">C=G</p>
-        <p class="code2">K=W</p>
-        <p class="code2">F=E</p>
-        <p class="toi">[？]に入るアルファベットは？</p>
-        <div id="hint10">
-          <input type="button" value="ヒント" id="hint10" alt="ヒントを聞くボタン" onclick="HINT10();">
-        </div>
-        <p>
-          答:<input type="text" id="answer10">
-          <input type="button" value="解答" alt="答えるボタン" onclick="nazo10();">
-        </p>
+      <br>
+      <br>
+      <div class="sbtn">
+        <a onclick="result();" class="btn btn--orange2">終了</a>
       </div>
     </div>
     <br>
     <br>
-    <input type="button" value="終了" alt="終了ボタン" onclick="result();">
-  </div>
-  <br>
-  <br>
-</body>
-</html>
+  </body>
+  </html>

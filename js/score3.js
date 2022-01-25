@@ -1,1 +1,1 @@
-function kekka3(){document.getElementById('result3').innerHTML='3問正解!!';}
+function kekka3(){document.getElementById('result3').innerHTML='<div><span class="iro1">3問</span>正解!!</p>';}

@@ -1,1 +1,1 @@
-function kekka8(){document.getElementById('result8').innerHTML='8問正解!!';}
+function kekka8(){document.getElementById('result8').innerHTML='<div><span class="iro1">8問</span>正解!!</p>';}

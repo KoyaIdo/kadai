@@ -9,14 +9,13 @@ div#questions, div#startpage{
 div#startpage, .kakoi1, .kakoi2, .kakoi3, .kakoi4, .kakoi5, .kakoi6, .kakoi7, .kakoi8, .kakoi9, .kakoi10{
     display: inline-block;
     margin: 2em 0;
-    /* position: relative; */
-    position: center;
+    position: relative;
     padding: 0.25em 1em;
     border: solid 2px #e5af00;
     border-radius: 3px 0 3px 0;
 }
 
-div#startpage::before, .kakoi1:before, .kakoi2:before, .kakoi3:before, .kakoi4:before, .kakoi5:before, .kakoi6:before, .kakoi7:before, .kakoi8:before, .kakoi9:before, .kakoi10:before,div#startpage::after, .kakoi1:after, .kakoi2:after, .kakoi3:after, .kakoi4:after, .kakoi5:after, .kakoi6:after, .kakoi7:after, .kakoi8:after, .kakoi9:after, .kakoi10:after{
+div#startpage:before, .kakoi1:before, .kakoi2:before, .kakoi3:before, .kakoi4:before, .kakoi5:before, .kakoi6:before, .kakoi7:before, .kakoi8:before, .kakoi9:before, .kakoi10:before, div#startpage:after, .kakoi1:after, .kakoi2:after, .kakoi3:after, .kakoi4:after, .kakoi5:after, .kakoi6:after, .kakoi7:after, .kakoi8:after, .kakoi9:after, .kakoi10:after{
     content:'';
     position: absolute;
     width: 10px;
@@ -26,13 +25,13 @@ div#startpage::before, .kakoi1:before, .kakoi2:before, .kakoi3:before, .kakoi4:b
 }
 
 div#startpage:after, .kakoi1:after, .kakoi2:after, .kakoi3:after, .kakoi4:after, .kakoi5:after, .kakoi6:after, .kakoi7:after, .kakoi8:after, .kakoi9:after, .kakoi10:after{
-    top:-12px;
-    left:-12px;
+    top:-9px;
+    left:-9px;
 }
 
 div#startpage:before, .kakoi1:before, .kakoi2:before, .kakoi3:before, .kakoi4:before, .kakoi5:before, .kakoi6:before, .kakoi7:before, .kakoi8:before, .kakoi9:before, .kakoi10:before{
-    bottom: -12px;
-    right: -12px;
+    bottom: -9px;
+    right: -9px;
 }
 
 .kakoi1 p, .kakoi2 p, .kakoi3 p, .kakoi4 p, .kakoi5 p, .kakoi6 p, .kakoi7 p, .kakoi8 p, .kakoi9 p, .kakoi10 p{

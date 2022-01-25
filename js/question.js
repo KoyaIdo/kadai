@@ -114,52 +114,52 @@ else{alert('はずれ!');}
 
 function T1(){
     add();
-    document.getElementById('question1').innerHTML='<p class="kotae">答え: M [MOKU(木曜日)]</p>';
+    document.getElementById('question1').innerHTML='<div><span class="iro1">答え:</span> M [MOKU(木曜日)]</div>';
 }
 
 function T2(){
     add();
-    document.getElementById('question2').innerHTML='<p class="kotae">答え: S [six(6)]</p>';
+    document.getElementById('question2').innerHTML='<div><span class="iro1">答え:</span> S [six(6)]</div>';
 }
 
 function T3(){
     add();
-    document.getElementById('question3').innerHTML='<p class="kotae">答え: E [Seven-Eleven]</p>';
+    document.getElementById('question3').innerHTML='<div><span class="iro1">答え:</span> E [Seven-Eleven]</div>';
 }
 
 function T4(){
     add();
-    document.getElementById('question4').innerHTML='<p class="kotae">答え: D [Day(日)]</p>';
+    document.getElementById('question4').innerHTML='<div><span class="iro1">答え:</span> D [Day(日)]</div>';
 }
 
 function T5(){
     add();
-    document.getElementById('question5').innerHTML='<p class="kotae">答え: S [SHOUWA(昭和)]</p>';
+    document.getElementById('question5').innerHTML='<div><span class="iro1">答え:</span> S [SHOUWA(昭和)]</div>';
 }
 
 function T6(){
     add();
-    document.getElementById('question6').innerHTML='<p class="kotae">答え: K [KYOU(今日)]</p>';
+    document.getElementById('question6').innerHTML='<div><span class="iro1">答え:</span> K [KYOU(今日)]</div>';
 }
 
 function T7(){
     add();
-    document.getElementById('question7').innerHTML='<p class="kotae">答え: J [January(１月),June(６月),July(７月)]</p>';
+    document.getElementById('question7').innerHTML='<div><span class="iro1">答え:</span> J [January(１月),June(６月),July(７月)]</div>';
 }
 
 function T8(){
     add();
-    document.getElementById('question8').innerHTML='<p class="kotae">答え: 43 [43県]</p>';
+    document.getElementById('question8').innerHTML='<div><span class="iro1">答え:</span> 43 [43県]</div>';
 }
 
 function T9(){
     add();
-    document.getElementById('question9').innerHTML='<p class="kotae">答え: K [Km(キロメートル)]</p>';
+    document.getElementById('question9').innerHTML='<div><span class="iro1">答え:</span> K [Km(キロメートル)]</div>';
 }
 
 function T10(){
     add();
-    document.getElementById('question10').innerHTML='<p class="kotae">答え: Y [YEN(円)]</p>';
+    document.getElementById('question10').innerHTML='<div><span class="iro1">答え:</span> Y [YEN(円)]</div>';
 }
 
 function HINT1(){
