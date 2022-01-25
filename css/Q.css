@@ -4,10 +4,13 @@ div#questions, div#startpage{
     text-align: center;
 }
 
+
+
 div#startpage, .kakoi1, .kakoi2, .kakoi3, .kakoi4, .kakoi5, .kakoi6, .kakoi7, .kakoi8, .kakoi9, .kakoi10{
     display: inline-block;
     margin: 2em 0;
-    position: relative;
+    /* position: relative; */
+    position: center;
     padding: 0.25em 1em;
     border: solid 2px #e5af00;
     border-radius: 3px 0 3px 0;

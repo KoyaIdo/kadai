@@ -1,14 +1,14 @@
 body{background-color:#131313;}
 
 .title1{
-    font-size: 70px;
+    font-size: 8vh;
     font-weight: bolder;
     text-align: center;
     color:#e5af00;
 }
 
 .midashi1{
-    font-size: 30px;
+    font-size: 2vw;
     text-align: center;
 }
 
@@ -17,6 +17,7 @@ body{background-color:#131313;}
 }
 
 .startpage{
+    font-size: 10px;
     color:white;
 }
 
